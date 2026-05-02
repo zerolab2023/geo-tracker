@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #f9f9f9; color: #0a0a0a; margin: 0; }
+
+input, select, textarea {
+  font-family: inherit;
+}
